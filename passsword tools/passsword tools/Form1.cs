@@ -195,7 +195,7 @@ namespace passsword_tools
         //帳號欄位
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            //
         }
         //密碼欄位
         private void textBox2_TextChanged(object sender, EventArgs e)
