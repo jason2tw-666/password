@@ -8,9 +8,10 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace passsword_tools
 {
-    //當前版本1.0.2
+    //當前版本1.0.3
     //既有障礙:目前第一次複製完畢時，再次複製會再詢問一次匯入檔案。
     //既有障礙:選擇所需的帳號目前實體檔可以塞多支帳號，但是要能夠多其他清單必須要由程式內部調整
+    //新增GIT
     public partial class Form1 : Form
     {
         [DllImport("user32.dll", SetLastError = true)]
