@@ -1,0 +1,24 @@
+C:\project\test\password tools\passsword tools\passsword tools\bin\Debug\passsword tools.exe.config
+C:\project\test\password tools\passsword tools\passsword tools\bin\Debug\passsword tools.exe
+C:\project\test\password tools\passsword tools\passsword tools\bin\Debug\passsword tools.pdb
+C:\project\test\password tools\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.AssemblyReference.cache
+C:\project\test\password tools\passsword tools\passsword tools\obj\Debug\passsword_tools.Form1.resources
+C:\project\test\password tools\passsword tools\passsword tools\obj\Debug\passsword_tools.Properties.Resources.resources
+C:\project\test\password tools\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.GenerateResource.cache
+C:\project\test\password tools\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.CoreCompileInputs.cache
+C:\project\test\password tools\passsword tools\passsword tools\obj\Debug\passsword tools.exe
+C:\project\test\password tools\passsword tools\passsword tools\obj\Debug\passsword tools.pdb
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\bin\Debug\passsword tools.exe.config
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\bin\Debug\passsword tools.exe
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\bin\Debug\passsword tools.pdb
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.AssemblyReference.cache
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.SuggestedBindingRedirects.cache
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword_tools.Form1.resources
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword_tools.Properties.Resources.resources
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.GenerateResource.cache
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.CoreCompileInputs.cache
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword tools.exe
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword tools.pdb
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dongjhe\Downloads\passsword tools\passsword tools\obj\Debug\passsword tools.csproj.CopyComplete
