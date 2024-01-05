@@ -222,7 +222,10 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "setop01",
-            "setop02"});
+            "setop02 ",
+            "SETOP",
+            "ADVCC",
+            "DDB"});
             this.comboBox1.Location = new System.Drawing.Point(151, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(206, 20);
