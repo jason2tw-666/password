@@ -55,6 +55,18 @@ namespace passsword_tools
             {
                 choose = "02";
             }
+            if (comboBox1.SelectedItem == "SETOP")
+            {
+                choose = "03";
+            }
+            if (comboBox1.SelectedItem == "ADVCC")
+            {
+                choose = "04";
+            }
+            if (comboBox1.SelectedItem == "DDB")
+            {
+                choose = "05";
+            }
             // 创建 OpenFileDialog 实例
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
