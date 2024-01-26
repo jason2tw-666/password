@@ -8,18 +8,17 @@ using Newtonsoft.Json;
 
 namespace passsword_tools
 {
-    //當前版本1.0.2
-    //既有障礙:目前第一次複製完畢時，再次複製會再詢問一次匯入檔案。
-    //既有障礙:選擇所需的帳號目前實體檔可以塞多支帳號，但是要能夠多其他清單必須要由程式內部調整
+    //當前版本1.1.1
+
     public partial class Form1 : Form
     {
         [DllImport("user32.dll", SetLastError = true)]
         public static extern void keybd_event(byte bVk, byte bScan, uint dwFlags, UIntPtr dwExtraInfo);
 
-        // 定义Ctrl键的虚拟键码
+        // 定義Ctrl键的虛擬键码
         private const int VK_CONTROL = 0x11;
 
-        // 定义Ctrl键的按下和释放标志位
+        // 定義Ctrl键的按下和釋放标志位
         private const int KEYEVENTF_KEYDOWN = 0x0;
         private const int KEYEVENTF_KEYUP = 0x2;
 
@@ -36,8 +35,6 @@ namespace passsword_tools
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
-            //4564
-
         }
 
 
@@ -48,6 +45,7 @@ namespace passsword_tools
         
         public class UserCredential
         {
+            public string NA { get; set; }
             public string AD { get; set; }
             public string PW { get; set; }
             public string VC { get; set; }
@@ -58,17 +56,19 @@ namespace passsword_tools
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // 初始化選項籃
+            comboBox1.Items.Clear();
 
             // 创建 OpenFileDialog 实例
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
-            // 设置对话框的标题
+            // 設置对话框的标题
             openFileDialog.Title = "選擇要匯入的文件";
 
-            // 设置对话框可以选择的文件类型
+            // 設置对话框可以選擇的文件类型
             openFileDialog.Filter = "Json files (*.json)|*.json|Text files (*.txt)|*.txt";
 
-            // 如果用户点击了“确定”按钮
+            // 如果用戶點擊了“确定”按钮
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -81,7 +81,7 @@ namespace passsword_tools
                     // 存取解析後的物件內容
                     foreach (var credential in userCredentials)
                     {
-                        comboBox1.Items.Add(credential.AD);
+                        comboBox1.Items.Add(credential.NA);
   
                     }
                     MessageBox.Show("文件導入成功！", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -101,7 +101,7 @@ namespace passsword_tools
         {
             foreach (var credential in userCredentials)
             {
-                if (comboBox1.SelectedItem.ToString() == credential.AD) {
+                if (comboBox1.SelectedItem.ToString() == credential.NA) {
                     textBox1.Text = credential.AD;
                     textBox2.Text = credential.PW;
                     textBox3.Text = credential.VC;
@@ -132,7 +132,7 @@ namespace passsword_tools
         {
             if (textBox3.Text != "") {
                 CopyData(textBox3.Text);
-                //button3_Click("", e);
+                button3_Click("", e);
             } 
         }
         //自訂複製按鈕
@@ -180,11 +180,10 @@ namespace passsword_tools
                 return;
             }
             {
-                InitializeComponent();
                
                 if (isButtonEnabled)
                 {
-                    // 设置 Timer 的时间间隔为1000毫秒（1秒）
+                    // 設置 Timer 的时间间隔为1000毫秒（1秒）
                     timer1.Interval = 1000;
                     // 啟動计时器
                     timer1.Start();
@@ -231,7 +230,7 @@ namespace passsword_tools
 
         private void UpdateCountdownLabel()
         {
-            // 将剩余时间格式化为 HH:mm:ss
+            // 將剩餘时间格式化为 HH:mm:ss
             TimeSpan timeSpan = TimeSpan.FromSeconds(countdownSeconds);
             label5.Text = $"剩餘時間：{timeSpan.ToString(@"hh\:mm\:ss")}";
         }
