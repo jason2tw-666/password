@@ -48,6 +48,8 @@ namespace passsword_tools
             public string NA { get; set; }
             public string AD { get; set; }
             public string PW { get; set; }
+            public string PW2 { get; set; }
+            public string PW3 { get; set; }
             public string VC { get; set; }
         }
 
@@ -104,6 +106,8 @@ namespace passsword_tools
                 if (comboBox1.SelectedItem.ToString() == credential.NA) {
                     textBox1.Text = credential.AD;
                     textBox2.Text = credential.PW;
+                    textBox5.Text = credential.PW2;
+                    textBox6.Text = credential.PW3;
                     textBox3.Text = credential.VC;
                 }
             }
@@ -126,6 +130,17 @@ namespace passsword_tools
         private void button8_Click(object sender, EventArgs e)
         {
             if(textBox2.Text!="")CopyData(textBox2.Text);
+        }
+        //密碼複製按鈕第二層
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (textBox5.Text != "") CopyData(textBox5.Text);
+        }
+
+        //密碼複製按鈕第三層
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (textBox6.Text != "") CopyData(textBox6.Text);
         }
         //驗整碼複製按鈕
         private void button5_Click(object sender, EventArgs e)
@@ -256,9 +271,19 @@ namespace passsword_tools
 
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void label8_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
