@@ -99,7 +99,7 @@ namespace passsword_tools
             
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             foreach (var credential in userCredentials)
             {
@@ -282,6 +282,16 @@ namespace passsword_tools
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+        //取檔按鈕
+        private void button9_Click(object sender, EventArgs e)
         {
 
         }
