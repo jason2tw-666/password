@@ -1,0 +1,44 @@
+[
+  {
+	"NA": "setopptc01",
+    "AD": "setopptc01",
+    "PW": "Ptc12876266..",
+	"PW2": "Ptc12876266....",
+	"PW3": "Ptc12876266....",
+    "VC": "!95)7"
+  },
+  {
+	"NA": "setopptc02",
+    "AD": "setopptc02",
+    "PW": "Ptc12876266...",
+	"PW2": "Ptc12876266....",
+	"PW3": "Ptc12876266....",
+    "VC": "!9%a6"
+  },
+  {
+	"NA": "OP APP 帳號",
+    "AD": "Setopteam01",
+    "PW": "SETOPTeam_0111"
+  },
+  {
+	"NA": "ADVCC 帳號",
+    "AD": "jason1124",
+    "PW": ""
+  },
+  {
+	"NA": "DDB 帳號",
+    "AD": "937240643496",
+    "PW": "ptc-user-cli",
+    "VC": "!Ptc12876266"
+  },
+  {
+	"NA": "Grafana 帳號",
+    "AD": "jason1124@ptc-nec.com.tw",
+    "PW": "Ptc12876266"
+  },
+    {
+	"NA": "SAMET II 帳號",
+    "AD": "jason1124",
+    "PW": ""
+  }
+]
